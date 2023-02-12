@@ -3,9 +3,10 @@
   
 * {
   box-sizing: border-box;
+  max-height: 100%;
 }
 
-h1 {
+h2 {
   color: hsl(0, 0%, 95%);
   font-family: Big Shoulders Display;
   font-size: 32px;
@@ -21,25 +22,27 @@ p {
 }
 
 /* Buttons Styling */
-.btn {
+a {
   background-color: white;
   border: none;
   border-radius: 25px;
   padding: 12px 28px;
-  margin-top: 50px;
+  margin-top: 25px;
   font-family: Lexend Deca;
   font-size: 15px;
+  text-decoration: none;
+  float: left;
 }
 
-.sedanbtn {
+.sedanlm {
   color: hsl(31, 77%, 52%);
 }
 
-.suvbtn {
+.suvlm {
   color: hsl(184, 100%, 22%);
 }
 
-.luxbtn {
+.luxlm {
   hsl(179, 100%, 13%)
 }
 
